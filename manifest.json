@@ -1,0 +1,17 @@
+{
+    "lang": "en-us",
+    "name": "Element 30 MCQs",
+    "short_name": "Element30MCQ",
+    "description": "MCQs for atomic number of first 30 elements.",
+    "start_url": "https://www.bidhan-acharya.com.np/element30mcqs/",
+    "background_color": "#2f3d58",
+    "theme_color": "#2f3d58",
+    "orientation": "portrait",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "https://www.bidhan-acharya.com.np/element30mcqs/icon.png",
+            "sizes": "512x512"
+        }
+    ]
+}
