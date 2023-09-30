@@ -263,20 +263,20 @@ const questions = [
         ])
     },
     {
-        question: 'Atomic number of Nickel?',
-        answers: shuffle([
-            { text: '25', correct: false },
-            { text: '28', correct: false },
-            { text: '26', correct: false },
-            { text: '27', correct: true }
-        ])
-    },
-    {
         question: 'Atomic number of Cobalt?',
         answers: shuffle([
             { text: '29', correct: false },
             { text: '26', correct: false },
+            { text: '28', correct: false },
+            { text: '27', correct: true }
+        ])
+    },
+    {
+        question: 'Atomic number of Nickel?',
+        answers: shuffle([
+            { text: '25', correct: false },
             { text: '28', correct: true },
+            { text: '26', correct: false },
             { text: '27', correct: false }
         ])
     },
@@ -306,7 +306,7 @@ const installButton = document.getElementById("install-btn");
 
 let installPrompt = null;
 
-if (window.matchMedia('(display-mode: standalone)').matches) {  
+if (window.matchMedia('(display-mode: standalone)').matches) {
     installButton.setAttribute("hidden", "");
 }
 
